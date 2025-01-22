@@ -1,0 +1,235 @@
+/*--------------------------------------
+Base
+----------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*--------------------------------------
+Générique
+----------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", serif;
+
+    background-color: white;
+
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--------------------------------------
+Components
+----------------------------------------*/
+
+/*Header*/
+
+header{
+    background-color: #f26c25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /*height: 80px;*/
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*header img{
+    margin-right: 10px;
+}*/
+
+.logo p{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+
+    list-style: none;
+}
+
+nav a{
+    color: white;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+/*SECTION BANNIERE*/
+
+.banniere{
+    background-color: #eeeeee;
+
+}
+
+.banniere .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.banniere h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*SECTION TRANSPORT*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #d0d0d0;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-left: 20px;
+}
+
+.titre-section img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+
+}
+
+.conteneur-transport h3{
+    font-size: 36px;
+    font-weight: 300;
+
+    text-align: center;
+
+}
+
+.conteneur-transport p{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer.wrapper ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  
+}
+
+.facebook a{
+    background-image: url("../images/facebook-nb\ 1.jpg");
+}
+
+.twitter a{
+    background-image: url("../images/twitter-nb\ 1.jpg");
+}
+
+.linkedin a{
+    background-image: url("../images/linkedin-nb\ 1.jpg");
+}
+
+.pinterest a{
+    background-image: url("../images/pinterest-nb\ 1.jpg");
+}
+
+
+.facebook a:hover{
+    background-image: url("../images/facebook-survol\ 1.jpg 1.jpg");
+}
+
+.twitter a:hover{
+    background-image: url("../images/twitter-survol\ 1.jpg 1.jpg");
+}
+
+.linkedin a:hover{
+    background-image: url("../images/linkedin-survol\ 1.jpg 1.jpg");
+}
+
+.pinterest a:hover{
+    background-image: url("../images/pinterest-survol\ 1.jpg 1.jpg");
+}
+
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #000000;
+
+    height: 70px;
+}
+
+footer h4{
+    color: white;
+
+    font-weight: 400;
+
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+
+
+
