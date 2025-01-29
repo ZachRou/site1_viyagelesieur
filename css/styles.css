@@ -163,7 +163,7 @@ nav a:hover{
 
 /*FOOTER*/
 
-footer.wrapper ul li a{
+footer .wrapper ul li a{
     display: inline-block;
     width: 32px;
     height: 32px;
